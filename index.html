@@ -65,7 +65,7 @@
       <section class="hero">
         <div class="overlay">
           <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="btn" type="button">Замовити послугу</button>
+          <button data-modal-open class="btn" type="button">Замовити послугу</button>
         </div>
       </section>
 
@@ -112,14 +112,23 @@
         <div class="conteiner wraper">
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="list-duty">
-            <li>
-              <img class="img" src="./img/verstka.jpg" alt="верстка" width="370" height="294" />
+            <li class="skills">
+              <img class="img" src="./img/verstka.jpg" alt="верстка" width="370" height="294" /><div
+                class="label-thumb"
+                ><h3 class="label-title">Десктопні додатки</h3></div
+              >
             </li>
-            <li>
-              <img class="img" src="./img/designer.jpg" alt="дизайн" width="370" height="294" />
+            <li class="skills">
+              <img class="img" src="./img/designer.jpg" alt="дизайн" width="370" height="294" /><div
+                class="label-thumb"
+                ><h3 class="label-title">Мобільні додатки</h3></div
+              >
             </li>
-            <li>
-              <img class="img" src="./img/test.jpg" alt="тестування" width="370" height="294" />
+            <li class="skills">
+              <img class="img" src="./img/test.jpg" alt="тестування" width="370" height="294" /><div
+                class="label-thumb"
+                ><h3 class="label-title">Дизайнерські рішення</h3></div
+              >
             </li>
           </ul>
         </div>
@@ -537,5 +546,12 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p></p>
+        <button data-modal-close class="btn" type="button"> </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
