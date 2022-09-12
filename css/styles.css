@@ -54,6 +54,7 @@ img {
 }
 .icon:hover .icon:focus {
   color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .list {
@@ -151,10 +152,12 @@ img {
 .page-header .link:hover,
 .page-header .link:focus {
   color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .logo-link:hover .logo-link:focus {
   color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .link.studia.current,
@@ -214,6 +217,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .list-contats {
@@ -247,11 +251,13 @@ img {
   line-height: calc(30 / 16);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: var(--team-color-content);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .btn:hover,
 .btn:focus {
   background: #188ce8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .propriet {
@@ -425,6 +431,7 @@ img {
   color: var(--brand-color-fut);
   text-decoration: none;
   list-style-type: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer .item {
@@ -471,6 +478,7 @@ img {
 .link-adress:hover,
 .link-adress:focus {
   color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 .contacts-addres {
   display: flex;
@@ -499,6 +507,7 @@ img {
 .contacts:hover,
 .contacts:focus {
   color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .proect {
@@ -580,6 +589,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .button {
@@ -596,11 +606,13 @@ img {
   cursor: pointer;
   border: 1px solid transparent;
   margin-bottom: 50px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
 .button:focus {
   color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 .section-team {
   background: var(--team-color-content);
@@ -639,11 +651,14 @@ img {
   fill: #afb1b8;
   width: 170px;
   height: 92px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover,
 .client-link:focus {
   fill: var(--brand-color-left);
   border: 1px solid var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-name {
@@ -722,6 +737,7 @@ img {
 }
 .contacts-link:hover .contacts-icon {
   fill: #188ce8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 .contacts-icon {
   fill: currentColor;
@@ -745,12 +761,14 @@ img {
 
   background-color: var(--brand-color-fut);
   border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .socials-link:hover,
 .socials-link:focus {
   color: var(--brand-color-fut);
   background-color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .socials-icon {
@@ -779,15 +797,18 @@ img {
   border-radius: 50%;
   display: flex;
   fill: var(--txt-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 .socials-link-f:hover {
   color: var(--brand-color-fut);
   background-color: var(--brand-color-left);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .flex:hover {
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
     1px 4px 6px rgb(0 0 0 / 16%);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .link-footer {
@@ -802,11 +823,13 @@ img {
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-footer:hover,
 .link-footer:focus {
   color: var(--brand-color-left);
   text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .project-thumb {
@@ -834,12 +857,14 @@ img {
 .project-link:hover .overlay-desc,
 .project-link:focus .overlay-desc {
   transform: translateY(0);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 .project-link:hover,
 .project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
 /* Модальне вікно */
@@ -887,4 +912,5 @@ img {
   color: var(--header-color);
   background-color: var(--main-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
