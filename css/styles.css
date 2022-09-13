@@ -376,14 +376,16 @@ img {
 }
 
 .label-title {
-  padding: 27px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
   font-family: var(--main-font);
   text-transform: uppercase;
   color: var(--brand-color-fut);
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  text-align: center;
+
   letter-spacing: 0.03em;
 }
 
